@@ -1,1 +1,7 @@
-
+name: Flujo inicial
+on:
+push:
+branches: [ main ]
+jobs:
+prueba:
+runs-on: ubuntu-latest
